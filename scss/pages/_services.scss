@@ -1,0 +1,131 @@
+// SERVICES-SECTION
+.services {
+    margin-bottom: 100px;
+    
+    .services__info {
+        margin-bottom: 80px;
+    }
+    
+    .services__cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        
+        .services__card {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 45px;
+            padding: 50px;
+            border: 1px solid $black-color;
+            box-shadow: 0px 5px 0 0 $black-color;
+            transition: box-shadow 0.3s linear;
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            &:hover {
+                box-shadow: 0px 0px 0 0 transparent;
+            }
+            
+            h3 {
+                margin: 0;
+                display: inline-block;
+                max-width: 222px;
+                border-radius: 7px;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: normal;
+                padding: 0px 7px;
+            }
+            
+            .card-padding {
+                padding-bottom: 93px;
+            }
+            
+            @media only screen and (max-width: 600px) {
+                h3 {
+                    font-size: 26px;
+                }
+                
+                & {
+                    flex-direction: column-reverse;
+                    gap: 30px;
+                }
+                
+                .card-padding {
+                    padding-bottom: 30px;
+                }
+            }
+            
+            &:first-child h3,
+            &:last-child h3,
+            &:nth-child(4) h3 {
+                background-color: $primary-color;
+            }
+            
+            &:nth-child(2) h3,
+            &:nth-child(3) h3,
+            &:nth-child(5) h3 {
+                background-color: $text-white-color;
+            }
+            
+            &:nth-child(1),
+            &:nth-child(4) {
+                background-color: $grey-color;
+            }
+            
+            &:nth-child(2),
+            &:nth-child(5) {
+                background-color: $primary-color;
+            }
+            
+            &:nth-child(3),
+            &:last-child {
+                background-color: $black-color;
+                span {
+                    background-color: $text-white-color;
+                    
+                    svg {
+                        color: $black-color;
+                    }
+                }
+                
+                a {
+                    color: $text-white-color;
+                }
+            }
+            
+            a {
+                display: inline-flex;
+                align-items: center;
+                gap: 15px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                color: $black-color;
+                
+                span {
+                    width: 41px;
+                    height: 41px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: $black-color;
+                    
+                    svg {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        & {
+            margin-bottom: 70px;
+        }
+    }
+}

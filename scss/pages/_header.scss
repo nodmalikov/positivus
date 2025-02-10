@@ -1,0 +1,139 @@
+/* LOGO */
+.logo {
+    display: flex;
+    flex-shrink: 0;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.logo__img {
+    width: 220px;
+    height: 56px;
+    object-fit: contain;
+}
+
+/* SITENAV */
+.sitenav__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.sitenav__link {
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    color: $text-black-color;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.sitenav__link:hover {
+    opacity: 0.8;
+}
+
+.sitenav__link:active {
+    opacity: 0.6;
+}
+
+// MENU-ICON
+.menu-icon {
+    display: none;
+}
+
+//SITE-HEADER-BUTTON
+.site-header__button {
+    background-color: transparent;
+    border: 1px solid $text-black-color;
+    color: $text-black-color;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    
+    .site-header__wrapper {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        
+        span {
+            display: flex;
+        }
+    }
+    
+    // MEDIA-QUERIES
+    @media only screen and (max-width: 1050px) {
+        & {
+            padding-top: 30px;
+            padding-bottom: 40px;
+        }
+        
+        .site-header__wrapper {
+            display: none;
+            position: fixed;
+            top: 0;
+            right: 0;
+            background-color: $grey-color;
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            transform: translateY(-100%);
+            transition: transform 0.3s linear;
+        }
+        
+        .site-header__active {
+            transform: translateX(0%);
+        }
+        
+        .sitenav__list {
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .menu-icon {
+            display: block;
+        }
+        
+        @media only screen and (max-width: 500px) {
+            .logo__img {
+                width: 170px;
+                height: 45px;
+            } 
+        }
+        
+        @media only screen and (max-width: 430px) {
+            .logo__img {
+                width: 150px;
+                height: 40px;
+            } 
+        }
+        
+        @media only screen and (max-width: 400px) {
+            .site-header__button {
+                padding: 20px;
+            }
+        }
+        
+        @media only screen and (max-width: 300px) {
+            .site-header__button {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

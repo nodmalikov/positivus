@@ -1,0 +1,66 @@
+// HERO-SECTION
+.hero {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    
+    .hero__info {
+        max-width: 530px;
+        
+        .hero__title {
+            font-weight: 500;
+            font-size: 60px;
+        }
+        
+        .hero__subtitle {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        
+        .hero__title, .hero__subtitle {
+            margin-top: 0;
+            margin-bottom: 35px;
+            color: $text-black-color;
+        }
+    }
+    
+    .hero__img {
+        max-width: 600px;
+        max-height: 515px;
+    }
+    
+    // MEDIA-QUERIES
+    @media only screen and (max-width: 1050px) {
+        & {
+            flex-direction: column-reverse;
+            align-items: center;
+            margin-bottom: 60px;
+            
+            .hero__info {
+                display: flex;
+                flex-direction: column;
+                
+                .hero__title {
+                    font-size: 43px;
+                    margin-bottom: 20px;
+                }
+                
+                .hero__subtitle {
+                    font-size: 16px;
+                    line-height: 24px;
+                    margin-bottom: 40px;
+                }
+                
+                .hero__title, .hero__subtitle {
+                    text-align: center;
+                }
+                
+                .hero__button {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

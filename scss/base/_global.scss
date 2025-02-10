@@ -34,9 +34,9 @@ img {
 /* CONTAINER */
 .container {
     width: 100%;
-    max-width: 1260px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -44,4 +44,125 @@ img {
 /* MAIN-CONTENT */
 .main-content {
     flex-grow: 1;
+}
+
+// COLORS
+$primary-color: #B9FF66;
+$text-black-color: #000000;
+$text-white-color: #FFFFFF;
+$grey-color: #F3F3F3;
+$black-color: #191A23;
+$light-white-color: rgba(255, 255, 255, 0.3);
+$form-text-color: #898989;
+$footer-form-bg: #292A32;
+
+// BUTTON
+a {
+    flex-shrink: 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button {
+    color: $text-white-color;
+    background-color: $black-color;
+    border-radius: 14px;
+    padding: 20px 35px;
+    
+    &:hover {
+        opacity: 0.8;
+    }
+    
+    &:active {
+        opacity: 0.6;
+    }
+}
+
+.site-footer .sitenav__list {
+    display: none;
+}
+
+// TITLE-SUBTITLE
+.services__title,
+.studies__title,
+.process__title,
+.team__title,
+.testimonials__title,
+.contact__title {
+    padding: 0 7px;
+    border-radius: 7px;
+    background-color: $primary-color;
+    color: $text-black-color;
+    text-transform: capitalize;
+    display: inline-block;
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: normal;
+}
+
+.services__subtitle,
+.studies__subtitle,
+.process__subtitle,
+.team__subtitle,
+.testimonials__subtitle,
+.contact__subtitle {
+    max-width: 600px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: normal;
+    margin: 0;
+    color: $text-black-color;
+}
+
+.services__info,
+.studies__info,
+.process__wrapper,
+.team__wrapper,
+.testimonials__wrapper,
+.contact__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+// MEDIA-QUERIES
+@media only screen and (max-width: 1050px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .services__title,
+    .studies__title,
+    .process__title,
+    .team__title,
+    .testimonials__title,
+    .contact__title {
+        font-size: 36px;
+        text-align: center;
+    }
+    
+    .services__info,
+    .studies__info,
+    .process__wrapper,
+    .team__wrapper,
+    .testimonials__wrapper,
+    .contact__wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .services__subtitle,
+    .studies__subtitle,
+    .process__subtitle,
+    .team__subtitle,
+    .testimonials__subtitle,
+    .contact__subtitle {
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+    }
 }

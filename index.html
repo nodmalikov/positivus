@@ -18,6 +18,9 @@
                 <img class="logo__img" src="img/logo-black.svg" alt="Site logo" width="220" height="55">
             </a>
             
+            <!-- MENU-ICON -->
+            <img class="menu-icon" src="img/icons/hamburger-icon.svg" alt="Menu icon" width="24" height="16">
+            
             <div class="site-header__wrapper">
                 <!-- SITENAV -->
                 <nav class="sitenav">
@@ -39,7 +42,9 @@
                         </li>
                     </ul>
                 </nav>
-                <a class="site-header__button button" href="#">Request a quote</a>
+                <span>
+                    <a class="site-header__button button" href="#">Request a quote</a>
+                </span>
             </div>
         </header>
         
@@ -60,12 +65,12 @@
             <!-- PARTNERS-SECTION -->
             <div class="partners">
                 <div class="partners__wrapper">
-                    <img src="img/partners-logo/amazon.svg" alt="Amazon logo">
-                    <img src="img/partners-logo/dribble.svg" alt="Dribble logo">
-                    <img src="img/partners-logo/hubspot.svg" alt="Hubspot logo">
-                    <img src="img/partners-logo/notion.svg" alt="Notion logo">
-                    <img src="img/partners-logo/netflix.svg" alt="Netflix logo">
-                    <img src="img/partners-logo/zoom.svg" alt="Zoom logo">
+                    <img class="partners__img" src="img/partners-logo/amazon.svg" alt="Amazon logo">
+                    <img class="partners__img" src="img/partners-logo/dribble.svg" alt="Dribble logo">
+                    <img class="partners__img" src="img/partners-logo/hubspot.svg" alt="Hubspot logo">
+                    <img class="partners__img" src="img/partners-logo/notion.svg" alt="Notion logo">
+                    <img class="partners__img" src="img/partners-logo/netflix.svg" alt="Netflix logo">
+                    <img class="partners__img" src="img/partners-logo/zoom.svg" alt="Zoom logo">
                 </div>
             </div>
             
@@ -78,73 +83,97 @@
                 <div class="services__cards">
                     <!-- SERVICES-CARD -->
                     <div class="services__card">
-                        <h3>Search engine optimization</h3>
-                        <a href="#">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
-                            </span>  
-                            Learn more
-                        </a>
+                        <div>
+                            <div class="card-padding">
+                                <h3>Search engine optimization</h3>
+                            </div>
+                            <a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
+                                </span>  
+                                Learn more
+                            </a>
+                        </div>
                         <img src="img/services-img/img-one.svg" alt="Services img" width="210" height="190">
                     </div>
                     
                     <!-- SERVICES-CARD -->
                     <div class="services__card">
-                        <h3>Pay-per-click advertising</h3>
-                        <a href="#">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
-                            </span>  
-                            Learn more
-                        </a>
+                        <div>
+                            <div class="card-padding">
+                                <h3>Pay-per-click advertising</h3>
+                            </div>
+                            <a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
+                                </span>  
+                                Learn more
+                            </a>
+                        </div>
                         <img src="img/services-img/img-two.svg" alt="Services img" width="210" height="190">
                     </div>
                     
                     <!-- SERVICES-CARD -->
                     <div class="services__card">
-                        <h3>Social Media Marketing</h3>
-                        <a href="#">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
-                            </span>  
-                            Learn more
-                        </a>
+                        <div>
+                            <div class="card-padding">
+                                <h3>Social Media Marketing</h3>
+                            </div>
+                            <a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
+                                </span>  
+                                Learn more
+                            </a>
+                        </div>
                         <img src="img/services-img/img-three.svg" alt="Services img" width="210" height="190">
                     </div>
                     
                     <!-- SERVICES-CARD -->
                     <div class="services__card">
-                        <h3>Email Marketing</h3>
-                        <a href="#">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
-                            </span>  
-                            Learn more
-                        </a>
+                        <div>
+                            <div class="card-padding">
+                                <h3>Email Marketing</h3>
+                            </div>
+                            <a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
+                                </span>  
+                                Learn more
+                            </a>
+                        </div>
                         <img src="img/services-img/img-four.svg" alt="Services img" width="210" height="190">
                     </div>
                     
                     <!-- SERVICES-CARD -->
                     <div class="services__card">
-                        <h3>Content Creation</h3>
-                        <a href="#">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
-                            </span>  
-                            Learn more
-                        </a>
+                        <div>
+                            <div class="card-padding">
+                                <h3>Content Creation</h3>
+                            </div>
+                            <a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
+                                </span>  
+                                Learn more
+                            </a>
+                        </div>
                         <img src="img/services-img/img-five.svg" alt="Services img" width="210" height="190">
                     </div>
                     
                     <!-- SERVICES-CARD -->
                     <div class="services__card">
-                        <h3>Analytics and Tracking</h3>
-                        <a href="#">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
-                            </span>  
-                            Learn more
-                        </a>
+                        <div>
+                            <div class="card-padding">
+                                <h3>Analytics and Tracking</h3>
+                            </div>
+                            <a href="#">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20"><path fill="currentColor" d="M1.25 13.701a1.5 1.5 0 1 0 1.5 2.598l-1.5-2.598Zm19.52-8.313a1.5 1.5 0 0 0-1.061-1.837L6.669.057a1.5 1.5 0 1 0-.777 2.898L17.483 6.06l-3.105 11.59a1.5 1.5 0 1 0 2.897.777l3.494-13.04ZM2.75 16.3l17.32-10-1.5-2.598-17.32 10 1.5 2.598Z"/></svg>
+                                </span>  
+                                Learn more
+                            </a>
+                        </div>
                         <img src="img/services-img/img-six.svg" alt="Services img" width="210" height="190">
                     </div>
                 </div>
