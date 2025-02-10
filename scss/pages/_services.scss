@@ -6,6 +6,12 @@
         margin-bottom: 80px;
     }
     
+    @media only screen and (max-width: 600px) {
+        .services__info {
+            margin-bottom: 40px;
+        }
+    }
+    
     .services__cards {
         display: flex;
         align-items: center;

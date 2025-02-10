@@ -379,6 +379,11 @@ a {
 .services .services__info {
   margin-bottom: 80px;
 }
+@media only screen and (max-width: 600px) {
+  .services .services__info {
+    margin-bottom: 40px;
+  }
+}
 .services .services__cards {
   display: flex;
   align-items: center;
