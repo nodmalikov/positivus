@@ -2,10 +2,6 @@
 .studies {
     margin-bottom: 140px;
     
-    .studies__info {
-        margin-bottom: 80px;
-    }
-    
     .studies__cards {
         display: flex;
         align-items: center;
@@ -53,13 +49,6 @@
                     padding: 42px 50px;
                 }
             }
-        }
-    }
-    
-    //  MEDIA-QUERIES
-    @media only screen and (max-width: 750px) {
-        .studies__info {
-            margin-bottom: 40px;
         }
     }
 }

@@ -124,6 +124,7 @@ a {
     display: flex;
     align-items: center;
     gap: 40px;
+    margin-bottom: 80px;
 }
 
 // MEDIA-QUERIES
@@ -153,6 +154,7 @@ a {
     .contact__wrapper {
         flex-direction: column;
         gap: 30px;
+        margin-bottom: 40px;
     }
     
     .services__subtitle,

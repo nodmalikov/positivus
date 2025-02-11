@@ -2,10 +2,6 @@
 .services {
     margin-bottom: 100px;
     
-    .services__info {
-        margin-bottom: 80px;
-    }
-    
     @media only screen and (max-width: 600px) {
         .services__info {
             margin-bottom: 40px;
@@ -126,12 +122,6 @@
                     }
                 }
             }
-        }
-    }
-    
-    @media only screen and (max-width: 600px) {
-        & {
-            margin-bottom: 70px;
         }
     }
 }
