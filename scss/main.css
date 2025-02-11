@@ -232,6 +232,7 @@ a {
     width: 100vw;
     transform: translateY(-100%);
     transition: transform 0.3s linear;
+    z-index: 999;
   }
   .site-header .site-header__active {
     transform: translateX(0%);
