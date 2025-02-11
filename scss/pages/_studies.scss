@@ -1,0 +1,110 @@
+// STUDIES-SECTION
+.studies {
+    margin-bottom: 140px;
+    
+    .studies__info {
+        margin-bottom: 80px;
+    }
+    
+    .studies__cards {
+        display: flex;
+        align-items: center;
+        border-radius: 45px;
+        overflow: hidden;
+        
+        .studies__card {
+            padding: 70px 65px;
+            background-color: $black-color;
+            
+            p {
+                margin-top: 0;
+                margin-bottom: 20px;
+                color: $text-white-color;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: normal;
+            }
+            
+            a {
+                display: inline-flex;
+                gap: 15px;
+                align-items: center;
+                color: $primary-color;
+                
+                svg {
+                    transition: transform 0.3s linear;
+                }
+                
+                &:hover svg {
+                    transform: translate(3px, -3px);
+                }
+            }
+            
+            &:first-child {
+                border-right: 1px solid $text-white-color;
+            }
+            
+            &:last-child {
+                border-left: 1px solid $text-white-color;
+            }
+            
+            @media only screen and (max-width: 1280px) {
+                & {
+                    padding: 42px 50px;
+                }
+            }
+        }
+    }
+    
+    //  MEDIA-QUERIES
+    @media only screen and (max-width: 750px) {
+        .studies__info {
+            margin-bottom: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .studies {
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .studies .studies__cards {
+        gap: 20px;
+        overflow: scroll;
+        align-items: stretch;
+        
+        &::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+        
+        .studies__card {
+            min-width: 350px;
+            border-radius: 45px;
+            
+            p {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        
+        @media only screen and (max-width: 420px) {
+            .studies__card {
+                padding: 30px 30px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .studies .studies__cards .studies__card:first-child {
+        border-right: 0px solid transparent;
+    }
+    
+    .studies .studies__cards .studies__card:last-child {
+        border-left: 0px solid transparent;
+    }
+}
