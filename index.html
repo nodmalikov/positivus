@@ -506,31 +506,35 @@
                     <p class="contact__subtitle">Connect with Us: Let's Discuss Your Digital Marketing Needs</p>
                 </div>
                 <!-- FORM -->
-                <form class="form" action="https://echo.htmlacademy.ru">
-                    <div class="form__group">
-                        <span>
-                            <input type="radio" id="hi" name="radio" value="one">
-                            <label for="hi">Say Hi</label>
-                        </span>
-                        <span>
-                            <input type="radio" id="get" name="radio" value="two">
-                            <label for="get">Get a Quote</label>
-                        </span>
-                    </div>
-                    <div class="form__group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Name" aria-label="Name">
-                    </div>
-                    <div class="form__group">
-                        <label for="name">Email*</label>
-                        <input type="email" id="email" name="email" placeholder="Email" aria-label="Email">
-                    </div>
-                    <div class="form__group">
-                        <label for="message">Message*</label>
-                        <textarea name="message" id="message" placeholder="Message" aria-label="Message"></textarea>
-                    </div>
-                    <button class="contact__button button" type="submit">Send Message</button>
-                </form>
+                <div class="contact__inner">
+                    <form class="form" action="https://echo.htmlacademy.ru">
+                        <div class="form__circle">
+                            <span>
+                                <input class="form__radio" type="radio" id="hi" name="radio" value="one">
+                                <label for="hi">Say Hi</label>
+                            </span>
+                            <span>
+                                <input class="form__radio" type="radio" id="get" name="radio" value="two">
+                                <label for="get">Get a Quote</label>
+                            </span>
+                        </div>
+                        <div class="form__about">
+                            <div class="form__group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Name" aria-label="Name">
+                            </div>
+                            <div class="form__group">
+                                <label for="email">Email*</label>
+                                <input type="email" id="email" name="email" placeholder="Email" aria-label="Email">
+                            </div>
+                            <div class="form__group">
+                                <label for="message">Message*</label>
+                                <textarea name="message" id="message" placeholder="Message" aria-label="Message"></textarea>
+                            </div>
+                        </div>
+                        <button class="contact__button button" type="submit">Send Message</button>
+                    </form>
+                </div>
             </div>
         </main>
         
