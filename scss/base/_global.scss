@@ -68,6 +68,7 @@ a {
     background-color: $black-color;
     border-radius: 14px;
     padding: 20px 35px;
+    transition: all 0.3s ease;
     
     &:hover {
         opacity: 0.8;
