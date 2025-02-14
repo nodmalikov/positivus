@@ -56,6 +56,56 @@ $light-white-color: rgba(255, 255, 255, 0.3);
 $form-text-color: #898989;
 $footer-form-bg: #292A32;
 
+// BACK-TOTOP
+.scroll-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: $black-color;
+    border: none;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    z-index: 2000;
+    
+    svg {
+        color: $text-white-color;
+        transform: rotate(90deg);
+    }
+}
+
+.scroll-btn-active {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+// SCROLL-ANIMATION
+.reveal {
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: all 1.3s ease;
+}
+
+.active {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+// PARTNERS-ANIMATION
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
 // BUTTON
 a {
     flex-shrink: 0;

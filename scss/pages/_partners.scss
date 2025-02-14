@@ -1,12 +1,19 @@
 // PARTNERS-SECTION
 .partners {
     margin-bottom: 140px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
     
     .partners__wrapper {
         display: grid;
         grid-auto-flow: column;
         column-gap: 95px;
-        overflow: scroll;
+        width: max-content;
+        animation: scroll 42s linear infinite;
+        &:hover {
+            animation-play-state: paused;
+        }
         
         img {
             min-width: max-content;
