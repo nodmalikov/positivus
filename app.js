@@ -191,4 +191,43 @@ window.addEventListener('DOMContentLoaded', () => {
     
     // Header balandligi o'zgarganda margin ni yangilash
     new ResizeObserver(updateMainContentMargin).observe(siteHeader);
+    
+    // EMAIL-SUBMIT
+    (function() {
+        emailjs.init({
+            publicKey: "AXhT2PSqgoDSTsCFH",
+        });
+    })();
+    
+    window.onload = function() {
+        document.querySelector('.form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formRadio = document.querySelector('input[name="radio"]:checked'),
+            formName = document.querySelector('#name'),
+            formEmail = document.querySelector('#email'),
+            formMessage = document.querySelector('#message');
+            
+            if (formName.value == '' || formEmail.value == '' || formMessage.value == '') {
+                alert("Please input your information!")
+            } else if (!formRadio) {
+                alert("Please select an option!");
+            } else {
+                // these IDs from the previous steps
+                emailjs.sendForm('service_vq6q6vv', 'template_8x5qtih', this)
+                .then(() => {
+                    alert('Sucsess')
+                }, (error) => {
+                    alert('Error')
+                });
+                
+                // Input value clear
+                formName.value = ''
+                formEmail.value = ''
+                formMessage.value = ''
+                if (formRadio) {
+                    formRadio.checked = false;
+                }
+            }
+        });
+    }
 });
