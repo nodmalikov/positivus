@@ -51,7 +51,7 @@ img {
   right: 20px;
   width: 50px;
   height: 50px;
-  background-color: #191A23;
+  background-color: #191a23;
   border: none;
   border-radius: 50%;
   opacity: 0;
@@ -61,7 +61,7 @@ img {
   z-index: 2000;
 }
 .scroll-btn svg {
-  color: #FFFFFF;
+  color: #ffffff;
   transform: rotate(90deg);
 }
 
@@ -97,8 +97,8 @@ a {
 }
 
 .button {
-  color: #FFFFFF;
-  background-color: #191A23;
+  color: #ffffff;
+  background-color: #191a23;
   border-radius: 14px;
   padding: 20px 35px;
   transition: all 0.3s ease;
@@ -122,7 +122,7 @@ a {
 .contact__title {
   padding: 0 7px;
   border-radius: 7px;
-  background-color: #B9FF66;
+  background-color: #b9ff66;
   color: #000000;
   text-transform: capitalize;
   display: inline-block;
@@ -229,7 +229,7 @@ a {
     width: 100%;
     justify-content: center;
     z-index: 200;
-    border-bottom: 1px solid #191A23;
+    border-bottom: 1px solid #191a23;
     background-color: rgba(255, 255, 255, 0.3);
     -webkit-backdrop-filter: blur(12px);
             backdrop-filter: blur(12px);
@@ -288,7 +288,7 @@ a {
     top: 2.5%;
     z-index: 888;
     background-color: rgba(185, 255, 102, 0.9);
-    border: 1px solid #191A23;
+    border: 1px solid #191a23;
     width: 95%;
     border-radius: 45px;
   }
@@ -297,7 +297,7 @@ a {
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     padding: 30px 20px;
     display: flex;
     flex-direction: column;
@@ -305,7 +305,7 @@ a {
     transform: translateY(-100%);
     transition: transform 0.3s linear;
     z-index: 999;
-    border-bottom: 1px solid #191A23;
+    border-bottom: 1px solid #191a23;
   }
   .site-header .logo__img {
     width: 170px;
@@ -418,7 +418,7 @@ a {
        column-gap: 95px;
   width: -moz-max-content;
   width: max-content;
-  animation: scroll 70s linear infinite;
+  animation: scroll 40s linear infinite;
 }
 .partners .partners__wrapper:hover {
   animation-play-state: paused;
@@ -475,8 +475,8 @@ a {
   max-width: 600px;
   border-radius: 45px;
   padding: 50px;
-  border: 1px solid #191A23;
-  box-shadow: 0px 5px 0 0 #191A23;
+  border: 1px solid #191a23;
+  box-shadow: 0px 5px 0 0 #191a23;
   transition: box-shadow 0.3s linear;
   display: inline-flex;
   justify-content: space-between;
@@ -511,28 +511,28 @@ a {
   }
 }
 .services .services__cards .services__card:first-child h3, .services .services__cards .services__card:last-child h3, .services .services__cards .services__card:nth-child(4) h3 {
-  background-color: #B9FF66;
+  background-color: #b9ff66;
 }
 .services .services__cards .services__card:nth-child(2) h3, .services .services__cards .services__card:nth-child(3) h3, .services .services__cards .services__card:nth-child(5) h3 {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .services .services__cards .services__card:nth-child(1), .services .services__cards .services__card:nth-child(4) {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
 }
 .services .services__cards .services__card:nth-child(2), .services .services__cards .services__card:nth-child(5) {
-  background-color: #B9FF66;
+  background-color: #b9ff66;
 }
 .services .services__cards .services__card:nth-child(3), .services .services__cards .services__card:last-child {
-  background-color: #191A23;
+  background-color: #191a23;
 }
 .services .services__cards .services__card:nth-child(3) span, .services .services__cards .services__card:last-child span {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .services .services__cards .services__card:nth-child(3) span svg, .services .services__cards .services__card:last-child span svg {
-  color: #191A23;
+  color: #191a23;
 }
 .services .services__cards .services__card:nth-child(3) a, .services .services__cards .services__card:last-child a {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .services .services__cards .services__card a {
   display: inline-flex;
@@ -541,7 +541,7 @@ a {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #191A23;
+  color: #191a23;
 }
 .services .services__cards .services__card a span {
   width: 41px;
@@ -550,10 +550,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #191A23;
+  background-color: #191a23;
 }
 .services .services__cards .services__card a span svg {
-  color: #B9FF66;
+  color: #b9ff66;
 }
 
 .proposal {
@@ -564,7 +564,7 @@ a {
 }
 .proposal .proposal__wrapper {
   padding: 60px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   border-radius: 45px;
 }
 .proposal .proposal__wrapper .proposal__info {
@@ -646,12 +646,12 @@ a {
 }
 .studies .studies__cards .studies__card {
   padding: 70px 65px;
-  background-color: #191A23;
+  background-color: #191a23;
 }
 .studies .studies__cards .studies__card p {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
@@ -660,7 +660,7 @@ a {
   display: inline-flex;
   gap: 15px;
   align-items: center;
-  color: #B9FF66;
+  color: #b9ff66;
 }
 .studies .studies__cards .studies__card a svg {
   transition: transform 0.3s linear;
@@ -669,10 +669,10 @@ a {
   transform: translate(3px, -3px);
 }
 .studies .studies__cards .studies__card:first-child {
-  border-right: 1px solid #FFFFFF;
+  border-right: 1px solid #ffffff;
 }
 .studies .studies__cards .studies__card:last-child {
-  border-left: 1px solid #FFFFFF;
+  border-left: 1px solid #ffffff;
 }
 @media only screen and (max-width: 1280px) {
   .studies .studies__cards .studies__card {
@@ -727,10 +727,10 @@ a {
 }
 .process .process__accordion .accordion {
   padding: 41px 57px 41px 60px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   border-radius: 45px;
-  border: 1px solid #191A23;
-  box-shadow: 0px 5px 0 0 #191A23;
+  border: 1px solid #191a23;
+  box-shadow: 0px 5px 0 0 #191a23;
   transition: background-color 0.3s ease;
 }
 .process .process__accordion .accordion .accordion__head {
@@ -760,9 +760,9 @@ a {
   width: 58px;
   height: 58px;
   border-radius: 50%;
-  border: 1px solid #191A23;
+  border: 1px solid #191a23;
   position: relative;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .process .process__accordion .accordion .accordion__head span::after {
   content: "";
@@ -805,7 +805,7 @@ a {
 }
 
 .change-bg {
-  background-color: #B9FF66 !important;
+  background-color: #b9ff66 !important;
 }
 
 @media only screen and (max-width: 750px) {
@@ -883,8 +883,8 @@ a {
 .team .team__card .card {
   max-width: 386px;
   border-radius: 45px;
-  border: 1px solid #191A23;
-  box-shadow: 0px 5px 0 0 #191A23;
+  border: 1px solid #191a23;
+  box-shadow: 0px 5px 0 0 #191a23;
   padding: 40px 35px 63px;
   transition: box-shadow 0.3s linear;
 }
@@ -966,7 +966,7 @@ a {
   gap: 124px;
   padding: 84px 30px 68px 30px;
   border-radius: 45px;
-  background-color: #191A23;
+  background-color: #191a23;
 }
 .testimonials .testimonials__slider .testimonials__pages {
   display: flex;
@@ -984,8 +984,8 @@ a {
   font-size: 18px;
   line-height: normal;
   padding: 48px 52px 80px;
-  color: #FFFFFF;
-  border: 1px solid #B9FF66;
+  color: #ffffff;
+  border: 1px solid #b9ff66;
   width: 100%;
   border-radius: 45px;
   position: relative;
@@ -994,7 +994,7 @@ a {
 .testimonials .testimonials__slider .testimonials__pages .testimonials__page h4::before {
   content: "";
   position: absolute;
-  border-bottom: 20px solid #B9FF66;
+  border-bottom: 20px solid #b9ff66;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   bottom: -20px;
@@ -1004,7 +1004,7 @@ a {
 .testimonials .testimonials__slider .testimonials__pages .testimonials__page h4::after {
   content: "";
   position: absolute;
-  border-bottom: 20px solid #191A23;
+  border-bottom: 20px solid #191a23;
   border-right: 20px solid transparent;
   border-left: 20px solid transparent;
   bottom: -18px;
@@ -1030,13 +1030,13 @@ a {
   }
 }
 .testimonials .testimonials__slider .testimonials__pages .testimonials__page strong {
-  color: #B9FF66;
+  color: #b9ff66;
   font-weight: 500;
   font-size: 20px;
   line-height: normal;
 }
 .testimonials .testimonials__slider .testimonials__pages .testimonials__page span {
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   font-weight: 400;
   font-size: 18px;
@@ -1058,7 +1058,7 @@ a {
   justify-content: center;
   align-items: center;
   gap: 190px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 @media only screen and (max-width: 650px) {
   .testimonials .testimonials__slider .testimonials__buttons {
@@ -1100,7 +1100,7 @@ a {
   }
 }
 .contact .contact__inner {
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   border-radius: 45px;
   padding: 60px 100px 80px;
   background-image: url("../img/contact-img.png");
@@ -1149,7 +1149,7 @@ a {
   background-color: white;
 }
 .contact .contact__inner .form .form__circle .form__radio:checked {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .contact .contact__inner .form .form__circle .form__radio:checked::before {
   content: "";
@@ -1158,7 +1158,7 @@ a {
   left: 50%;
   width: 10px;
   height: 10px;
-  background-color: #B9FF66;
+  background-color: #b9ff66;
   border-radius: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1197,7 +1197,7 @@ a {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 @media only screen and (max-width: 650px) {
   .contact .contact__inner {
@@ -1234,7 +1234,7 @@ a {
 }
 
 .site-footer {
-  background-color: #191A23;
+  background-color: #191a23;
   border-top-left-radius: 45px;
   border-top-right-radius: 45px;
   padding: 55px 60px 50px;
@@ -1267,7 +1267,7 @@ a {
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: underline;
 }
 .site-footer .site-footer__link .social {
@@ -1281,7 +1281,7 @@ a {
 }
 .site-footer .site-footer__link .social svg {
   display: block;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .site-footer .site-footer__contact {
   display: flex;
@@ -1323,8 +1323,8 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: normal;
-  color: #191A23;
-  background-color: #B9FF66;
+  color: #191a23;
+  background-color: #b9ff66;
   padding: 0 7px;
   border-radius: 7px;
   display: inline-block;
@@ -1333,10 +1333,10 @@ a {
   font-weight: 400;
   font-size: 19px;
   line-height: normal;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .site-footer .site-footer__contact .second-div {
-  background-color: #292A32;
+  background-color: #292a32;
   border-radius: 14px;
   padding: 58px 40px;
   max-width: 634px;
@@ -1350,21 +1350,21 @@ a {
 }
 .site-footer .site-footer__contact .second-div form input {
   border-radius: 14px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   padding: 22px 35px;
   background-color: transparent;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   font-weight: 600;
   width: 100%;
 }
 .site-footer .site-footer__contact .second-div form input:focus {
-  outline: 1px solid #FFFFFF;
+  outline: 1px solid #ffffff;
 }
 .site-footer .site-footer__contact .second-div form button {
   border-radius: 14px;
   padding: 20px 35px;
-  background-color: #B9FF66;
+  background-color: #b9ff66;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
@@ -1376,7 +1376,7 @@ a {
   display: flex;
   align-items: center;
   padding-top: 50px;
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid #ffffff;
   margin-top: 50px;
   gap: 40px;
 }
@@ -1395,7 +1395,7 @@ a {
   font-size: 18px;
   line-height: 28px;
   text-transform: capitalize;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 @media only screen and (max-width: 950px) {
   .site-footer .site-footer__info span, .site-footer .site-footer__info a {
