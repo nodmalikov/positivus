@@ -86,8 +86,11 @@ img {
   0% {
     transform: translateX(0);
   }
-  100% {
+  50% {
     transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 a {
@@ -418,7 +421,7 @@ a {
        column-gap: 95px;
   width: -moz-max-content;
   width: max-content;
-  animation: scroll 40s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 .partners .partners__wrapper:hover {
   animation-play-state: paused;
@@ -426,6 +429,7 @@ a {
 .partners .partners__wrapper img {
   min-width: -moz-max-content;
   min-width: max-content;
+  width: auto;
 }
 .partners .partners__wrapper img {
   filter: grayscale(100%);

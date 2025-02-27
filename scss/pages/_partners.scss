@@ -10,13 +10,14 @@
 		grid-auto-flow: column;
 		column-gap: 95px;
 		width: max-content;
-		animation: scroll 40s linear infinite;
+		animation: scroll 60s linear infinite;
 		&:hover {
 			animation-play-state: paused;
 		}
 
 		img {
 			min-width: max-content;
+			width: auto;
 		}
 
 		img {
